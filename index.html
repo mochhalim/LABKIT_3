@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#12312e">
+  <title>Peminjaman Alat Bengkel</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" type="image/png" href="icons/icon-192.png">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Alat TKJ">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Hanken+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top no-print"><div class="brand"><span class="mark" aria-hidden="true"></span><div><b>Peminjaman Alat</b><small>Bengkel TKJ</small></div><button id="install" class="btn sm hidden" type="button">Pasang aplikasi</button></div></header>
+  <main class="wrap">
+    <nav id="tabs" class="tabs no-print" aria-label="Menu utama"></nav>
+    <div id="view"></div>
+  </main>
+  <dialog id="dlg"><form id="f-ret"></form></dialog>
+  <div id="toast" class="toast" role="status"></div>
+  <script src="app.js"></script>
+</body>
+</html>
